@@ -5,7 +5,7 @@ import math
 try:
     outfilename = sys.argv[1]
 except:
-    print "Usage:", sys.argv[0], "infile  outfile"
+    print "Usage:", sys.argv[0], "outfile"
     sys.exit(1)
 
 ofile = open(outfilename, 'w')
